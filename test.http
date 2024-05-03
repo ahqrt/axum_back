@@ -1,0 +1,17 @@
+// add user
+post http://localhost:3000/users
+content-type: application/json
+
+{
+    "name": "sample",
+}
+
+
+
+
+// get users 
+get http://localhost:3000/users 
+
+// test happy path
+get http://localhost:3000 
+
